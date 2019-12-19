@@ -1,0 +1,7 @@
+C:\Users\USER\source\repos\AutokauppaWCF\AutokauppaWCF\bin\AutokauppaWCF.dll.config
+C:\Users\USER\source\repos\AutokauppaWCF\AutokauppaWCF\bin\AutokauppaWCF.dll
+C:\Users\USER\source\repos\AutokauppaWCF\AutokauppaWCF\bin\AutokauppaWCF.pdb
+C:\Users\USER\source\repos\AutokauppaWCF\AutokauppaWCF\obj\Debug\AutokauppaWCF.csprojAssemblyReference.cache
+C:\Users\USER\source\repos\AutokauppaWCF\AutokauppaWCF\obj\Debug\AutokauppaWCF.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\AutokauppaWCF\AutokauppaWCF\obj\Debug\AutokauppaWCF.dll
+C:\Users\USER\source\repos\AutokauppaWCF\AutokauppaWCF\obj\Debug\AutokauppaWCF.pdb

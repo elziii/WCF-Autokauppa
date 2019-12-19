@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:64899/Service1.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/AutokauppaWCF" />
+  <xs:element name="TestDatabaseConnection">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TestDatabaseConnectionResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="TestDatabaseConnectionResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="saveAuto">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/AutokauppaWCF" minOccurs="0" name="newAuto" nillable="true" type="q1:Auto" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="saveAutoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="saveAutoResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="getAllAutoMakers">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="getAllAutoMakersResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/AutokauppaWCF" minOccurs="0" name="getAllAutoMakersResult" nillable="true" type="q2:ArrayOfAutonMerkki" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="getAutoModels">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="makerId" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="getAutoModelsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/AutokauppaWCF" minOccurs="0" name="getAutoModelsResult" nillable="true" type="q3:ArrayOfAutonMalli" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPolttoaine">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPolttoaineResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/AutokauppaWCF" minOccurs="0" name="GetPolttoaineResult" nillable="true" type="q4:ArrayOfPolttoaineet" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetVari">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetVariResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/AutokauppaWCF" minOccurs="0" name="GetVariResult" nillable="true" type="q5:ArrayOfVarit" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetMinId">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetMinIdResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetMinIdResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetMaxId">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetMaxIdResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetMaxIdResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="NextPrevAuto">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="autoId" type="xs:int" />
+        <xs:element minOccurs="0" name="next" type="xs:boolean" />
+        <xs:element minOccurs="0" name="prev" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="NextPrevAutoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/AutokauppaWCF" minOccurs="0" name="NextPrevAutoResult" nillable="true" type="q6:Auto" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteAuto">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="autoId" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteAutoResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

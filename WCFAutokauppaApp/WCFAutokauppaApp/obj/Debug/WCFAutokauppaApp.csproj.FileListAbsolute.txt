@@ -1,0 +1,10 @@
+C:\Users\USER\source\repos\WCFAutokauppaApp\WCFAutokauppaApp\bin\Debug\WCFAutokauppaApp.exe.config
+C:\Users\USER\source\repos\WCFAutokauppaApp\WCFAutokauppaApp\bin\Debug\WCFAutokauppaApp.exe
+C:\Users\USER\source\repos\WCFAutokauppaApp\WCFAutokauppaApp\bin\Debug\WCFAutokauppaApp.pdb
+C:\Users\USER\source\repos\WCFAutokauppaApp\WCFAutokauppaApp\obj\Debug\WCFAutokauppaApp.csprojAssemblyReference.cache
+C:\Users\USER\source\repos\WCFAutokauppaApp\WCFAutokauppaApp\obj\Debug\WCFAutokauppaApp.MainMenu.resources
+C:\Users\USER\source\repos\WCFAutokauppaApp\WCFAutokauppaApp\obj\Debug\WCFAutokauppaApp.Properties.Resources.resources
+C:\Users\USER\source\repos\WCFAutokauppaApp\WCFAutokauppaApp\obj\Debug\WCFAutokauppaApp.csproj.GenerateResource.cache
+C:\Users\USER\source\repos\WCFAutokauppaApp\WCFAutokauppaApp\obj\Debug\WCFAutokauppaApp.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\WCFAutokauppaApp\WCFAutokauppaApp\obj\Debug\WCFAutokauppaApp.exe
+C:\Users\USER\source\repos\WCFAutokauppaApp\WCFAutokauppaApp\obj\Debug\WCFAutokauppaApp.pdb
